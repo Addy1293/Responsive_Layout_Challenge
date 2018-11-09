@@ -1,0 +1,50 @@
+/* Style the navbar */
+ .navbar {
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: center;
+    color: #282e34;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  .sticky .content {
+    padding-top: 60px;
+  }
+  .slideshow {
+    position: relative;
+    overflow: hidden;
+  }
+  .images {
+    background: url('..imgs/1.jpg');
+    background: url('..imgs/2.jpg');
+    background: url('..imgs/3.jpg');
+    background: url('..imgs/4.jpg');
+    background: url('..imgs/5.jpg');
+    background: url('..imgs/6.jpg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+    animation: slideshow 10s linear infinite;
+  }
+  @keyframes slideshow {
+    0%    { left: 0; }
+    100%  { left: -200%; }
+  }

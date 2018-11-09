@@ -1,0 +1,29 @@
+.main{
+    display: grid;
+}
+.container{
+        width: 88%;
+        border: 35px solid green;
+        padding: 25px;
+        margin: 25px;
+        text-align: center;
+        background-color: green;
+}
+.nav{
+    grid-template-columns: 1fr 1fr;
+    width: 25%;
+    border: 35px solid green;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    background-color: green;
+}
+/* .sec{
+    grid-template-columns: 3/4;
+    width: 50%;
+    border: 35px solid green;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    background-color: green;
+} */
